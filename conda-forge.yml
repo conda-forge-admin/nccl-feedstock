@@ -6,8 +6,7 @@ bot:
     allowed_tag_globs:
       - v*
     sources:
-      - githubreleases
-      - gittags
+      - github
 build_platform:
   linux_aarch64: linux_64
   linux_ppc64le: linux_64
